@@ -37,17 +37,30 @@ body{
     width: 10%;
 }
 .cabecalho__menu{
+    display: flex;
+    justify-content: flex-end;
     color: var(--branco);
-    margin: 30px;
-    font-size: 20px;
+    margin: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
 }
 .cabecalho__menu:hover{
     color: var(--botao-azul);
 }
 .cabecalho__agendar{
+    text-decoration: none;
+    font-size: 18px;
     color: var(--azul);
     margin: 30px;
+    background-color: var(--botao-azul);
+    padding: 15px 30px ;
+    border-radius: 30px ;
+    font-weight: 500;
 
+}
+.cabecalho__agendar:hover{
+    padding: 18px 30px 18px 30px;
 }
 .comeco{
     background-image: url(assets/josy\ 1.svg);
