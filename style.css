@@ -15,6 +15,7 @@ body{
     font-family: var(--fonte--secundaria);
     size: 16px;
     font-weight: 400;
+    text-decoration: none;
 }
 *{
     margin: 0;
@@ -25,16 +26,27 @@ body{
     background-color: var(--azul);
     padding: 0;
     color: var(--branco);
+    align-items: center;
+    padding-bottom: 10px;
+    font-family: var(--fonte--principal);
 }
 
 .cabecalho__logo{
-    padding: 10px;
+    padding: 50px;
     height: 30px;
     width: 10%;
 }
 .cabecalho__menu{
+    color: var(--branco);
+    margin: 30px;
+    font-size: 20px;
+}
+.cabecalho__menu:hover{
+    color: var(--botao-azul);
 }
 .cabecalho__agendar{
+    color: var(--azul);
+    margin: 30px;
 
 }
 .comeco{
