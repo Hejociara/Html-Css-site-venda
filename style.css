@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+:root{
+    --branco: #FFFFFF;
+    --cinza: #c0c0c0;
+    --botao-azul: #C5FCFF;
+    --amarelo: #E4BC7F;
+    --azul: #0B2B40;
+    --fonte--principal: 'Poppins', sans-serif;
+    --fonte--secundaria: 'Raleway', sans-serif; 
+}
+
+body{
+    background-color: var(--branco);
+    color: var(--azul);
+    font-family: var(--fonte--secundaria);
+    size: 16px;
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    display: flex;
+    background-color: var(--azul);
+    padding: 0;
+    color: var(--branco);
+}
+
+.cabecalho__logo{
+    padding: 10px;
+    height: 30px;
+    width: 10%;
+}
+.cabecalho__menu{
+}
+.cabecalho__agendar{
+
+}
+.comeco{
+    background-image: url(assets/josy\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: 90%;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__caixa{
+    margin: 0 6em;
+}
+.container__titulo{
+    font-size: 28px;
+    font-family: var(--fonte--principal);
+    font-weight: 700;
+}
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px;
+    color: #0B2B40;
+    display: inline;
+    margin: 1em 1em;
+    font-family: var(--fonte--principal);
+    font-size: 16px;
+
+}
+.container__aviso{
+    margin-top: 2em;
+    font-size: 12px;
+    color: var(--cinza);
+}
