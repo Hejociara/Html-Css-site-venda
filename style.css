@@ -66,12 +66,13 @@ body{
     padding: 18px 30px 18px 30px;
 }
 .comeco{
-    background-image: url(assets/josy\ 1.svg);
+    background-image: url(assets/josy.png);
     background-repeat: no-repeat;
-    background-size: contain ;
-    background-position: 90%;
+    background-size: 500px 600px; ;
+    background-position: 80%;
     align-items: center;
     text-align: center;
+    
 }
 
 .container{
