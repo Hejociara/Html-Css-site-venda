@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
 :root{
     --branco: #FFFFFF;
-    --cinza: #c0c0c0;
+    --cinza: #5c5b5b;
     --botao-azul: #C5FCFF;
     --amarelo: #E4BC7F;
     --azul: #0B2B40;
@@ -125,4 +125,8 @@ body{
 }
 .descricao__texto{
     color: var(--cinza);
+}
+.secundario__botao{
+    display: inline-block;
+    margin: 1em 0;
 }
