@@ -115,7 +115,7 @@ body{
     margin: 0 10em;
 }
 .secundario__imagem{
-    width: 80%;
+    width: 500px;
 }
 .descricao__titulo{
     font-weight: 700;
@@ -129,4 +129,7 @@ body{
 .secundario__botao{
     display: inline-block;
     margin: 1em 0;
+}
+.secundario__imagem2{
+    width: 700px;
 }
