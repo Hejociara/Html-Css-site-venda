@@ -133,3 +133,14 @@ body{
 .secundario__imagem2{
     width: 700px;
 }
+
+.dispositivos{
+    text-align: center;
+}
+   
+.dispositivos__lista{
+   display: flex; 
+   justify-content: center;
+   list-style-type: none;
+}
+
