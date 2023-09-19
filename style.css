@@ -150,7 +150,18 @@ body{
 .lista__item{
     font-size: 32px;
     font-family: var(--fonte--secundaria);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
-.  display: grid;
-grid-template-columns: 50% 50%;
+.rodape{
+    font-family: var(--fonte--principal);
+    background-color: var(--azul);
+}
+.rodape__inicial{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape__final{
+    padding: 13px;
+    background-color: var(--amarelo);
+    color: var(--azul);
+}
