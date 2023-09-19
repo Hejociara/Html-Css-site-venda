@@ -16,7 +16,6 @@ body{
     font-family: var(--fonte--secundaria);
     size: 16px;
     font-weight: 400;
-    text-decoration: none;
 }
 *{
     margin: 0;
@@ -164,7 +163,7 @@ body{
 
 .rodape__inicial{
     display: inline-grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 22.9% 25% 16% 21% 18%;
 
 }
 .rodape__parte{
@@ -181,7 +180,7 @@ body{
     color: var(--branco);
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 
 }
 .rodape__informacoes{
@@ -190,9 +189,14 @@ body{
     font-size: 14px;
     font-weight: 300;
     color: var(--branco);
-    
+    text-decoration: none;   
 }
-.rodape__informacoes:hover{
+
+.rodape__informacoes__link{
+    text-decoration: none;
+    color: var(--branco);
+}
+.rodape__informacoes__link:hover{
     color: var(--botao-azul);
 }
 
