@@ -137,10 +137,20 @@ body{
 .dispositivos{
     text-align: center;
 }
-   
+.dispositivos__titulo{
+    font-size: 48px;
+    font-family: var(--fonte--principal);
+    margin-bottom: 30px;
+}
 .dispositivos__lista{
    display: flex; 
    justify-content: center;
    list-style-type: none;
 }
-
+.lista__item{
+    font-size: 32px;
+    font-family: var(--fonte--secundaria);
+    margin-bottom: 30px;
+}
+.  display: grid;
+grid-template-columns: 50% 50%;
