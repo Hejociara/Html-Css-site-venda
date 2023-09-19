@@ -200,6 +200,10 @@ body{
     color: var(--botao-azul);
 }
 
+.rodape__icones{
+    text-decoration: none;
+
+}
 .rodape__final{
     padding: 15px;
     background-color: var(--amarelo);
