@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Raleway:wght@400;500;600&display=swap');
 :root{
     --branco: #FFFFFF;
     --cinza: #5c5b5b;
@@ -167,8 +167,33 @@ body{
 
 }
 .rodape__parte{
+    display: flex;
     padding: 10px;
+    justify-content: space-between;
 }
+.rodape__logo{
+    height: 157px;
+    width: 200px;
+}
+.rodape__titulo{
+    font-family: var(--fonte--principal);
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+.rodape__informacoes{
+    margin-top: 5px;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--branco);
+}
+.rodape__informacoes:hover{
+    color: var(--botao-azul);
+}
+
 .rodape__final{
     padding: 15px;
     background-color: var(--amarelo);
