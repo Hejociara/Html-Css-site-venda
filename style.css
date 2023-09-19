@@ -159,6 +159,7 @@ body{
     padding-top: 14px;
     font-family: var(--fonte--principal);
     background-color: var(--azul);
+    text-decoration: none;
 }
 
 .rodape__inicial{
@@ -189,6 +190,7 @@ body{
     font-size: 14px;
     font-weight: 300;
     color: var(--branco);
+    
 }
 .rodape__informacoes:hover{
     color: var(--botao-azul);
