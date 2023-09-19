@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;500;600&display=swap');
 :root{
     --branco: #FFFFFF;
     --cinza: #5c5b5b;
@@ -6,7 +6,8 @@
     --amarelo: #E4BC7F;
     --azul: #0B2B40;
     --fonte--principal: 'Poppins', sans-serif;
-    --fonte--secundaria: 'Raleway', sans-serif; 
+    --fonte--secundaria: 'Raleway', sans-serif;
+    ; 
 }
 
 body{
@@ -99,15 +100,17 @@ body{
     color: #0B2B40;
     display: inline;
     margin: 1em 1em;
-    font-family: var(--fonte--principal);
+    font-family: var(--fonte--secundaria);
     font-size: 16px;
     border-radius: 30px
     
 }
 .container__aviso{
-    margin-top: 2em;
-    font-size: 12px;
+    margin-top: 3em;
+    font-size: 10px;
     color: var(--cinza);
+    font-family: var(--fonte--secundaria);
+    font-weight: 400;
 }
 
 .secundario{
@@ -153,15 +156,24 @@ body{
     margin-bottom: 50px;
 }
 .rodape{
+    padding-top: 14px;
     font-family: var(--fonte--principal);
     background-color: var(--azul);
 }
+
 .rodape__inicial{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+.rodape__parte{
+    padding: 10px;
 }
 .rodape__final{
-    padding: 13px;
+    padding: 15px;
     background-color: var(--amarelo);
     color: var(--azul);
+    font-size: 17px;
+    font-family: var(--fonte--secundaria);
+    font-weight: 500;
 }
