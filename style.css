@@ -167,9 +167,11 @@ body{
 
 }
 .rodape__parte{
+    margin: 30px;
     display: flex;
     padding: 10px;
     justify-content: space-between;
+    line-height: 20px;
 }
 .rodape__logo{
     height: 157px;
@@ -200,8 +202,8 @@ body{
     color: var(--botao-azul);
 }
 
-.rodape__icones{
-    text-decoration: none;
+.rodape__icone{
+    height: 45px
     
 }
 .rodape__final{
