@@ -92,6 +92,7 @@ body{
     margin: 1em 0 2em 0;
 }
 .container__botao{
+    display: flex;
     background-color: var(--botao-azul);
     border-radius: 5px;
     text-decoration: none;
