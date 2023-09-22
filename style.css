@@ -81,6 +81,8 @@ body{
     grid-template-columns: 50% 50%;
 }
 .container__caixa{
+    display: flex;
+    flex-direction: column;
     margin: 0 6em;
 }
 .container__titulo{
@@ -92,13 +94,13 @@ body{
     margin: 1em 0 2em 0;
 }
 .container__botao{
-    display: flex;
+    display: inline;
+    flex-direction: row;
     background-color: var(--botao-azul);
     border-radius: 5px;
     text-decoration: none;
     padding: 20px;
     color: #0B2B40;
-    display: inline;
     margin: 1em 1em;
     font-family: var(--fonte--secundaria);
     font-size: 16px;
@@ -139,6 +141,7 @@ body{
 
 .dispositivos{
     text-align: center;
+    padding-bottom: 200px;
 }
 .dispositivos__titulo{
     font-size: 48px;
