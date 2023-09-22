@@ -164,7 +164,7 @@ body{
 
 .rodape__inicial{
     display: inline-grid;
-    grid-template-columns: 22.9% 25% 16% 21% 18%;
+    grid-template-columns: 20% 25% 15% 22% 18%;
 
 }
 .rodape__parte{
